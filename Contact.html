@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="./src/css/contact.css">
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MEANING</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="Artistes.html">Artistes</a></li>
+                    <li class="active"><a href="#">A propos</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="public/img/menu.png" alt="menu hamburger" class="menu-hamburger">
+        </nav>
+    </header>
+</body>
+<script>
+    const menuhamburger = document.querySelector(".menu-hamburger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>(
+        navlinks.classList.toggle('mobile-menu')
+    )
+    )
+</script>
+<body>
+    <h1>Contact nous</h1>
+    <div class="contact-box">
+         <form>
+            <input type="text" class="input-field" placeholder="Votre Prénom/Nom">
+            <input type="email" class="input-field" placeholder="Votre E-mail">
+            <input type="text" class="input-field" placeholder="Objet">
+            <textarea type="text" class="input-field textarea-field" placeholder="Votre Message">
+            </textarea>
+         </form>
+         <boutton type="boutton" class="boutton">Envoyer</boutton>
+    </div>
+    <footer>
+        <h2>MEANING</h2>
+        <p style="text-align: center;">Organisation d’évènement tous les mois avec differents sujets. Nous organisons cela pour transmettre des passions et vous faire decouvrir de nouvelles horizons.</p>
+        <img class="image2" src="public/img/instagram (1).png" alt="instagram">
+        <img class="image2" src="public/img/facebook (1).png" alt="facebook">
+        <img class="image2" src="public/img/logo-twitter-sur-fond-noir.png" alt="twitter">
+        <p>copyright @2023 MEANING tous droits réservés.</p>
+    </footer>
+</body>

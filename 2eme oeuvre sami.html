@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="./src/css/oeuvre 2samigatouffi.css">
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MEANING</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="Artistes.html">Artistes</a></li>
+                    <li class="active"><a href="#">A propos</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="public/img/menu.png" alt="menu hamburger" class="menu-hamburger">
+        </nav>
+    </header>
+</body>
+<script>
+    const menuhamburger = document.querySelector(".menu-hamburger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>(
+        navlinks.classList.toggle('mobile-menu')
+    )
+    )
+</script>
+<body>
+    <div class="contenu">
+      <h1>Sami Gattoufi :</h1>
+      <img class="image" src="public/img/image 7.webp" alt="artiste">
+      <p>Relativity
+        Sami Gattoufi
+        Titre original: النسبية
+        Date: 2018 - 2019; Tunisia
+        Style: Neo-Figurative Art</p>
+        <p>Description :
+            Cette oeuvre represente l’humain vivant du coter sombre et triste de la vie. Cela represente egalement que l’homme a la joie et le bonheur a deux pas de lui, a porter de lui.
+        </p>
+    </div>
+    <footer>
+        <h2>MEANING</h2>
+        <p style="text-align: center;">Organisation d’évènement tous les mois avec differents sujets. Nous organisons cela pour transmettre des passions et vous faire decouvrir de nouvelles horizons.</p>
+        <img class="image2" src="public/img/instagram (1).png" alt="instagram">
+        <img class="image2" src="public/img/facebook (1).png" alt="facebook">
+        <img class="image2" src="public/img/logo-twitter-sur-fond-noir.png" alt="twitter">
+        <p>copyright @2023 MEANING tous droits réservés.</p>
+    </footer>
+</body>
