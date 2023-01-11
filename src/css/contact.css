@@ -29,22 +29,6 @@ p{
     font-family: regular;
 }
 
-footer h2{
-    margin-top: 20px;
-    margin-left: 380px;
-}
-
-.image2{
-    display: inline-block;
-    margin-left: 165px;
-    padding:15px;
-    width: 60px;
-}
-
-.nav-links{
-    font-size: 25px;
-}
-
 .contact-box{
     width: 500px;
     background-color: #FFE39B;
@@ -84,3 +68,19 @@ form{
     text-align: center;
     margin: 30px;
   }
+
+footer h2{
+    margin-top: 20px;
+    margin-left: 380px;
+}
+
+.image2{
+    display: inline-block;
+    margin-left: 165px;
+    padding:15px;
+    width: 60px;
+}
+
+.nav-links{
+    font-size: 25px;
+}
