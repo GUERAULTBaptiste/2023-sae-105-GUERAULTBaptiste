@@ -42,15 +42,12 @@ p{
     text-decoration: underline;
   }
 
-  .image1{
-    display: flex;
-    margin-top: -65px;
-    margin-left: 320px;
-    padding:15px;
+.image1{
+    margin-bottom: -20px;
     width: 60px;
-}
+  }
 
-footer h2{
+  footer h2{
     margin-top: 20px;
     margin-left: 370px;
 }
@@ -65,3 +62,4 @@ footer h2{
 .nav-links{
     font-size: 25px;
 }
+
