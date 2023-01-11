@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="./src/css/samigattoufi.css">
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MEANING</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="Artistes.html">Artistes</a></li>
+                    <li class="active"><a href="#">A propos</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="public/img/menu.png" alt="menu hamburger" class="menu-hamburger">
+        </nav>
+    </header>
+</body>
+<script>
+    const menuhamburger = document.querySelector(".menu-hamburger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>(
+        navlinks.classList.toggle('mobile-menu')
+    )
+    )
+</script>
+<body>
+    <div class="contenu">
+      <h1>Sami Gattoufi :</h1>
+      <img class="image" src="public/img/image 5.webp" alt="artiste">
+      <p>Mohamed Sami Gattoufi
+        Naissance: 19 mai 2001; Tunisia
+        Nationalité: Tunisians
+        Mouvement artistique: Contemporain, Neo-Figurative Art, Art existentiel
+        Domaine: peinture, sculpture, dessin</p>
+        <a class="boutton" href="#"><strong>en decouvrir plus</strong></a>
+        <img class="image1" src="public/img/fleche-droite.png" alt="fleche de droite">
+        <p>Description :
+            Sélectionnée parmi 8000 candidatures, l’inspiration du jeune tunisien Sami Gattoufi a été particulièrement saluée dans l’exposition «Longue vie à Rembrandt».
+            Considéré comme le peintre de la beauté dont les oeuvres montrent la compassion et l’humanité, Rembrandt est l’un des plus importants artistes de l’école hollandaise. Une reconnaissance qui justifie pleinement les hommages réguliers qui lui sont accordés dans son pays et dans le monde.
+            En effet, le jeune natif de Bizerte a décidé de peindre une oeuvre concentrée sur l’histoire de l’art et l’influence de Rembrandt dans l’art néerlandais. En guise de consécration, le tableau de Sami figure parmi les 575 oeuvres choisies et a mérité les félicitations appuyées de Pieter Roelofs. Ce dernier est à la tête de la section des tableaux de peinture et sculptures au Rijksmuseum.
+        </div>
+    <footer>
+        <h2>MEANING</h2>
+        <p style="text-align: center;">Organisation d’évènement tous les mois avec differents sujets. Nous organisons cela pour transmettre des passions et vous faire decouvrir de nouvelles horizons.</p>
+        <img class="image2" src="public/img/instagram (1).png" alt="instagram">
+        <img class="image2" src="public/img/facebook (1).png" alt="facebook">
+        <img class="image2" src="public/img/logo-twitter-sur-fond-noir.png" alt="twitter">
+        <p>copyright @2023 MEANING tous droits réservés.</p>
+    </footer>
+</body>
