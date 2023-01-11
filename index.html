@@ -41,7 +41,57 @@
         <p>C’est une exposition sur la peinture néo-figurative est une forme d'expression encore plus réduite, située entre Art naïf, Arts populaires et illustration de Bande dessinée. L'expressivité est soulignée par l'importance du "trait" et des "lignes" qui structurent les champs colorés ou les dessins.</p>
         <a class="boutton" href="description-art.html"><strong>en decouvrir plus</strong></a>
         <img class="image1" src="public/img/fleche-droite.png" alt="fleche droite">
-        <img class="image3" src="public/img/image 2.webp" alt="carousel">
+    </div>
+    <h2 class="titre-carrousel">oeuvres des differents artistes :</h2>
+    <div class="carrousel-b">      
+        <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
+            <button @click="const p =$refs.parent ;  p.scrollLeft-= p.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">&lt;</button><button @click="const p =$refs.parent ;  p.scrollLeft+= p.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+            <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive="hrefCourant = '#'+
+                            [...$refs.parent.children]
+                            .find(e=>e.getBoundingClientRect().x>=0)
+                            .id">
+                <div id="ecran-1" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 2.webp" alt="image ecran 1">
+                    </figure>
+                </div>
+                <div id="ecran-2" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 3.webp" alt="image ecran 2">
+                    </figure>
+                </div>
+                <div id="ecran-3" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 6.webp" alt="image ecran 3">
+                    </figure>
+                </div>
+                <div id="ecran-4" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 7.webp" alt="image ecran 4">
+                    </figure>
+                </div>
+                <div id="ecran-5" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 18.webp" alt="image ecran 5">
+                    </figure>
+                </div>
+                <div id="ecran-6" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 17.webp" alt="image ecran 6">
+                    </figure>
+                </div>
+                <div id="ecran-7" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 19.webp" alt="image ecran 5">
+                    </figure>
+                </div>
+                <div id="ecran-8" class="carrousel_ecran">
+                    <figure>
+                        <img src="public/img/image 16.webp" alt="image ecran 6">
+                    </figure>
+                </div>   
+            </div>
+        </div>
     </div>
     <footer>
         <h2>MEANING</h2>
