@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="./src/css/antonio description.css">
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MEANING</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="#">Artistes</a></li>
+                    <li class="active"><a href="#">A propos</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="public/img/menu.png" alt="menu hamburger" class="menu-hamburger">
+        </nav>
+    </header>
+</body>
+<script>
+    const menuhamburger = document.querySelector(".menu-hamburger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>(
+        navlinks.classList.toggle('mobile-menu')
+    )
+    )
+</script>
+<body>
+    <div class="contenu">
+      <h1>Antonio Povedano</h1>
+      <img class="image" src="public/img/image 4.webp" alt="artiste">
+      <p>Antonio Povedano Bermúdez
+        Naissance: 28 octobre 1918; Spain
+        Décès: 7 septembre 2008; Spain
+        Nationalité: Spanish
+        Mouvement artistique: Neo-Figurative Art
+        Domaine: peinture</p>
+        <a class="boutton" href="#"><strong>en decouvrir plus</strong></a>
+        <img class="image1" src="public/img/fleche-droite.png" alt="fleche de droite">
+        <p>Description :
+            Né à Sabariego , Povedano est devenu orphelin avant sa naissance, sa mère a rapidement déménagé à El Cañuelo ( Priego de Córdoba ), où il a vécu jusqu'à ce qu'il commence ses études artistiques à Cordoue puis à Séville et Madrid. En 1941, il obtient une bourse du Conseil provincial de Cordoue et entreprend des études à l' École des arts et métiers de Cordoue . 
+            En 1944, il commence ses études supérieures à l' École des beaux-arts Santa Isabel de Hungría (Séville). En 1945, le Conseil provincial lui décerne la bourse " Romero Barros " et il s'installe à Madrid pour terminer ses études à l' École des beaux-arts de San Fernando et obtient en 1947 laBourse paularienne , accordée par ladite institution. En 1948, il termine ses études à Madrid et obtient le titre de professeur de dessin artistique. En 1957, il entre par intérim à l'École des arts appliqués et des métiers d'art de Cordoue et, en 1963, il obtient le poste de professeur par concours, qu'il occupera jusqu'à sa retraite. Après sa mort, certains de ses élèves ont assisté à ses funérailles.</p>
+    </div>
+    <footer>
+        <h2>MEANING</h2>
+        <p style="text-align: center;">Organisation d’évènement tous les mois avec differents sujets. Nous organisons cela pour transmettre des passions et vous faire decouvrir de nouvelles horizons.</p>
+        <img class="image2" src="public/img/instagram (1).png" alt="instagram">
+        <img class="image2" src="public/img/facebook (1).png" alt="facebook">
+        <img class="image2" src="public/img/logo-twitter-sur-fond-noir.png" alt="twitter">
+        <p>copyright @2023 MEANING tous droits réservés.</p>
+    </footer>
+</body>
