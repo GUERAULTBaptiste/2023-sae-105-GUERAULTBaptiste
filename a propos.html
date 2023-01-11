@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="./src/css/a propos.css">
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">MEANING</a>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="Artistes.html">Artistes</a></li>
+                    <li class="active"><a href="#">A propos</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <img src="public/img/menu.png" alt="menu hamburger" class="menu-hamburger">
+        </nav>
+    </header>
+</body>
+<script>
+    const menuhamburger = document.querySelector(".menu-hamburger")
+    const navlinks = document.querySelector(".nav-links")
+
+    menuhamburger.addEventListener('click',()=>(
+        navlinks.classList.toggle('mobile-menu')
+    )
+    )
+</script>
+<body>
+    <div class="contenu">s
+      <h1>A propos</h1>
+        <p>Cette expositions à été crée afin de faire decouvrir ces oeuvres et ces artistes notament certain qui ne sont pas autant connu comparé à d’autre présent dans l’exposition mais qui ont des resultats comparable niveaux art c’est la raisons pour laquelle nous voulont les mettres en avant. Nous organisons des évenements de ce genre a peu près tous les mois ou du moins le plus souvent possible afin de vous faire decouvrir de nouvelle horizons n’hesitez pas à enregistrer ce site pour vous tenir au courant !.</p>
+    </div>
+    <footer>
+        <h2>MEANING</h2>
+        <p style="text-align: center;">Organisation d’évènement tous les mois avec differents sujets. Nous organisons cela pour transmettre des passions et vous faire decouvrir de nouvelles horizons.</p>
+        <img class="image2" src="public/img/instagram (1).png" alt="instagram">
+        <img class="image2" src="public/img/facebook (1).png" alt="facebook">
+        <img class="image2" src="public/img/logo-twitter-sur-fond-noir.png" alt="twitter">
+        <p>copyright @2023 MEANING tous droits réservés.</p>
+    </footer>
+</body>
